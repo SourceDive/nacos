@@ -25,6 +25,7 @@ import java.util.concurrent.Executor;
 public interface Listener {
 
     /**
+     * <p>获取线程池。</p>
      * Get executor for execute this receive
      *
      * @return Executor
